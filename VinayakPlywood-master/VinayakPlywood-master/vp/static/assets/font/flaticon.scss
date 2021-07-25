@@ -1,0 +1,61 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?3bb18cc529365046516cdcce3f7ea987") format("truetype"),
+url("./flaticon.woff?3bb18cc529365046516cdcce3f7ea987") format("woff"),
+url("./flaticon.woff2?3bb18cc529365046516cdcce3f7ea987") format("woff2"),
+url("./flaticon.eot?3bb18cc529365046516cdcce3f7ea987#iefix") format("embedded-opentype"),
+url("./flaticon.svg?3bb18cc529365046516cdcce3f7ea987#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "flag": "\f101",
+    "spyglass": "\f102",
+    "checklist": "\f103",
+    "shield": "\f104",
+    "sprout": "\f105",
+    "price-tag": "\f106",
+    "customer-satisfaction": "\f107",
+    "delivery-truck": "\f108",
+    "helmet": "\f109",
+);
+
+.flaticon-flag:before {
+    content: map-get($flaticon-map, "flag");
+}
+.flaticon-spyglass:before {
+    content: map-get($flaticon-map, "spyglass");
+}
+.flaticon-checklist:before {
+    content: map-get($flaticon-map, "checklist");
+}
+.flaticon-shield:before {
+    content: map-get($flaticon-map, "shield");
+}
+.flaticon-sprout:before {
+    content: map-get($flaticon-map, "sprout");
+}
+.flaticon-price-tag:before {
+    content: map-get($flaticon-map, "price-tag");
+}
+.flaticon-customer-satisfaction:before {
+    content: map-get($flaticon-map, "customer-satisfaction");
+}
+.flaticon-delivery-truck:before {
+    content: map-get($flaticon-map, "delivery-truck");
+}
+.flaticon-helmet:before {
+    content: map-get($flaticon-map, "helmet");
+}

@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Vinayak Plywood</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+
+  <!-- Favicons -->
+  <link href={% static "assets/img/fav.png" %} rel="icon">
+  <link href={% static "assets/img/fav.png" %} rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href={% static "assets/vendor/animate.css/animate.min.css" %} rel="stylesheet">
+  <link href={% static "assets/vendor/aos/aos.css" %}  rel="stylesheet">
+  <link href={% static "assets/vendor/bootstrap/css/bootstrap.min.css" %} rel="stylesheet">
+  <link href={% static "assets/vendor/bootstrap-icons/bootstrap-icons.css" %}  rel="stylesheet">
+  <link href={% static "assets/vendor/boxicons/css/boxicons.min.css" %}  rel="stylesheet">
+  <link href={% static "assets/vendor/glightbox/css/glightbox.min.css" %} rel="stylesheet">
+  <link href={% static "assets/vendor/remixicon/remixicon.css" %}  rel="stylesheet">
+  <link href={% static "assets/vendor/swiper/swiper-bundle.min.css" %} rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href={% static "assets/css/style.css" %} rel="stylesheet">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href={% static "assets\font\flaticon.css" %}>
+
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+
+
+  <!-- <link href="assets/css/style1.css" rel="stylesheet"> -->
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+
+
+  <header id="header" class="fixed-top d-flex align-items-center  header-transparent ">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <div class="logo">
+        <h1><a href="index.html" class="animate_animated animatefadeInDown ">Vinayak Plywood</a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#services">Services</a></li>
+          <li><a class="nav-link scrollto " href="#gallery">Products</a></li>
+          <li><a class="nav-link scrollto" href="#faq">F.A.Q</a></li>
+
+
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div class="hero-container">
+      <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+
+        <ol id="hero-carousel-indicators" class="carousel-indicators"></ol>
+
+        <div class="carousel-inner" role="listbox">
+
+          <div class="carousel-item active" style="background-image: url({% static "assets/img/bg11.jpg" %})">
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animate__animated animate__fadeInDown">THE HOUSE OF PLYWOOD</h2>
+                <p class="animate__animated animate__fadeInUp">PLYWOOD | LAMINATE | FLUSH DOORS | LINER</p>
+                 </div>
+            </div>
+          </div>
+
+          <div class="carousel-item" style="background-image: url({% static "assets/img/bg12.jpg" %})">
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animate__animated animate__fadeInDown">DECORATIVE  &nbsp FURNITURES</h2>
+                 </div>
+            </div>
+          </div>
+
+          <div class="carousel-item" style="background-image: url({% static "assets/img/bg13.jpg" %})">
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animate__animated animate__fadeInDown">DESIGNER &nbsp CUPBOARDS</h2>
+                </div>
+            </div>
+          </div>
+
+          <div class="carousel-item" style="background-image: url({% static "assets/img/bg15.jpg" %})">
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animate__animated animate__fadeInDown">BEST QUALITY FLUSH DOORS</h2>
+                </div>
+            </div>
+          </div>
+
+          <div class="carousel-item" style="background-image: url({% static "assets/img/bg111.jpg" %})">
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animate__animated animate__fadeInDown">LAMINATE &nbsp FLOURING</h2>
+                </div>
+            </div>
+          </div>
+
+        </div>
+
+        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+        </a>
+
+        <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <!-- <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-out">
+          <h2>About</h2>
+          <p>Who we are</p>
+        </div> -->
+
+        <section id="about" class="services">
+          <div class="container">
+
+            <div class="section-title" data-aos="zoom-out">
+              <h2>About</h2>
+              <p style="color: #504037;">Who we are</p>
+
+
+            </div>
+
+            <div class="row">
+
+              <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                <div class="icon-box">
+                  <div class="icon"><i class="flaticon-flag"></i></div>
+                  <h4 class="title"><a href="">Our Mission</a></h4>
+                  <p class="description">Our Mission is to provide best quality products at a very reasonable price with utmost satisfaction to our business associates and end users.</p>
+                </div>
+              </div>
+              {% comment %} <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                <div class="icon-box">
+                  <div class="icon"><i class="flaticon-checklist"></i></div>
+                  <h4 class="title"><a href="">Our Plan</a></h4>
+                  <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+                </div>
+              </div> {% endcomment %}
+              <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="500">
+                <div class="icon-box">
+                  <div class="icon"><i class="flaticon-spyglass"></i></div>
+                  <h4 class="title"><a href="">Our Vision</a></h4>
+                  <p class="description">To become a market leader in a very organised way in plywood industry by providing best services, values and satisfaction to our business associates.</p>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </section>
+
+<!--
+      </div>
+    </section> -->
+    <!-- End About Section -->
+
+
+
+
+    <!-- ======= Welcome Section ======= -->
+    {% comment %} <section id="" class="">
+      <div class="container" class="red">
+        <img src="assets/img/vp_logo1.PNG" height="50px" width="100px">
+          <h1 class="red">WELCOME to vp</h1>
+
+      </div>
+    </section><!-- End Features Section --> {% endcomment %}
+
+    <!-- ======= slogan Section ======= -->
+    <section id="cta" class="cta">
+       <div class="container ">
+       </div>
+  </section>
+    <!-- End Cta Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-out">
+          <h2>Services</h2>
+          <p style="color: #504037;">What do we offer</p>
+
+
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6" data-aos="fade-up">
+            <div class="icon-box">
+              <div class="icon"><i class="flaticon-shield"></i></div>
+              <h4 class="title"><a href="">Quality Assurance</a></h4>
+              <p class="description">Our products are the result of advance research which gurantees 100% quality assurance to our end users.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><i class="flaticon-delivery-truck"></i></div>
+              <h4 class="title"><a href="">Door-Step Dilevery</a></h4>
+              <p class="description">Our team ensures timely delivery of the orders in the safest way possible.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class="flaticon-price-tag"></i></div>
+              <h4 class="title"><a href="">Reasonable Price</a></h4>
+              <p class="description">We focus on providing the best quality products at a very reasonable cost.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="flaticon-helmet"></i></div>
+              <h4 class="title"><a href="">Best Carpenters</a></h4>
+              <p class="description">We also provide carpenters and architects who are highly trained and expertise in their work field.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="icon-box">
+              <div class="icon"><i class="flaticon-customer-satisfaction"></i></div>
+              <h4 class="title"><a href="">Customer Satisfaction</a></h4>
+              <p class="description">Our company focuses on meeting customer needs and expectations,  making sure 100% customer satisfaction.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="icon-box">
+              <div class="icon"><i class="flaticon-sprout"></i></div>
+              <h4 class="title"><a href="">Eco Freindly</a></h4>
+              <p class="description">We have actively undertaken plantation activities and believe in maintaining ecological harmony.</p>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Product Section ======= -->
+    <!-- <section id="portfolio" class="portfolio">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-out">
+          <h2>Products</h2>
+          <p>What we do</p>
+        </div>
+
+        <section id="gallery"> -->
+
+          <section id="gallery">
+
+            <div class="container" data-aos="fade-up">
+              <div class="section-title" >
+                <h2>Gallery</h2>
+                <p style="color: #504037;">Check our product gallery </p>
+              </div>
+            </div>
+
+          <div class="gallery-slider swiper-container">
+            <div class="swiper-wrapper align-items-center">
+              <div class="swiper-slide">
+                <div class="img"><a href="{% static "assets/img/p1.png" %}" class="gallery-lightbox"><img src="{% static "assets/img/p1.png" %}" class="img-fluid" alt=""></a></div>
+              <h3 class="product_details"> PLYWOOD</h3></div>
+              <div class="swiper-slide">
+                <div class="img"><a href="{% static "assets/img/l2.png" %}" class="gallery-lightbox"><img src="{% static "assets/img/l2.png" %}" class="img-fluid" alt=""></a></div>
+                <h3 class="product_details"> LINER</h3>
+              </div>
+              <div class="swiper-slide"><a href="assets/img/portfolio/portfolio-3.jpg" class="gallery-lightbox"><img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt=""></a>
+                <div class="img"><a href="{% static "assets/img/d1.png" %}" class="gallery-lightbox"><img src="{% static "assets/img/d1.png" %}" class="img-fluid" alt=""></a></div>
+                <h3 class="product_details"> FLUSH DOORS</h3>
+              </div>
+              <div class="swiper-slide"><a href="assets/img/portfolio/portfolio-4.jpg" class="gallery-lightbox"><img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt=""></a>
+                <div class="img"><a href="{% static "assets/img/l1.jpg" %}" class="gallery-lightbox"><img src="{% static "assets/img/l1.jpg" %}" class="img-fluid" alt=""></a></div>
+                <h3 class="product_details"> LAMINATES</h3>
+              </div>
+              {% comment %} <div class="swiper-slide"><a href="assets/img/portfolio/portfolio-5.jpg" class="gallery-lightbox"><img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt=""></a>
+                <div class="img"><a href="{% static "assets/img/p2.png" %}" class="gallery-lightbox"><img src="{% static "assets/img/p2.png" %}" class="img-fluid" alt=""></a></div>
+                <h3 class="product_details"> p5</h3>
+              </div>
+              <div class="swiper-slide"><a href="assets/img/portfolio/portfolio-6.jpg" class="gallery-lightbox"><img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt=""></a>
+                <div class="img"><a href="{% static "assets/img/p2.png" %}" class="gallery-lightbox"><img src="{% static "assets/img/p2.png" %}" class="img-fluid" alt=""></a></div>
+                <h3 class="product_details"> p6</h3>
+              </div>
+              <div class="swiper-slide"><a href="assets/img/portfolio/portfolio-7.jpg" class="gallery-lightbox"><img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt=""></a>
+                <div class="img"><a href="{% static "assets/img/p2.png" %}" class="gallery-lightbox"><img src="{% static "assets/img/p2.png" %}" class="img-fluid" alt=""></a></div>
+                <h3 class="product_details"> p7</h3>
+              </div>
+              <div class="swiper-slide"><a href="assets/img/portfolio/portfolio-8.jpg" class="gallery-lightbox"><img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt=""></a>
+                <div class="img"><a href="{% static "assets/img/p2.png" %}" class="gallery-lightbox"><img src="{% static "assets/img/p2.png" %}" class="img-fluid" alt=""></a></div>
+                <h3 class="product_details"> p8</h3>
+              </div> {% endcomment %}
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+
+        </section>
+
+
+
+
+
+      <!-- </div>
+    </section>
+     -->
+    <!-- End product Section -->
+
+
+
+
+
+    <!-- ======= F.A.Q Section ======= -->
+    <section id="faq" class="faq">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-out">
+          <h2>F.A.Q</h2>
+          <p style="color: #504037;">Frequently Asked Questions</p>
+        </div>
+
+        <ul class="faq-list">
+
+          <li>
+            <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">How can a custormer judge the Quality of Plywood?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq1" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                Firstly check plywood surface is smooth and doesn’t have ups or down, also check all four corner of plywood & make sure it has no thickness variation. Always prefer heavy weight plywood as it carries more density.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">How can I waterproof Plywood? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq2" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                  Liqid Latex, Spray-on or Paint-on Latex is an effective plywood protector.It is available at hardware stores and forms a waterproof layer on the surface of the plywood to protect it from moisture.
+                  </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">What are the different types of Organisms which attack and destroy Plywood?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq3" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                The most damaging organism that attack wood­  structures are the termites. The beetles are the next most important group of insect which attack wood.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">How do we take care of Furnitures made of wood? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq4" class="collapse" data-bs-parent=".faq-list">
+              <p>
+               The furnitures made from wood must be kept Dry, be carefull about exposing wooden funitures to sunlight for prolonged time periods.Avoid using extremely hot and cold objects on wooden furnitures. For better mainteinance oiling and waxing wood is highly recommended and always use warm water and mild dish soap
+               to clean furniture.
+              </p>
+            </div>
+          </li>
+
+          {% comment %} <li>
+            <div data-bs-toggle="collapse" href="#faq5" class="collapsed question">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq5" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq6" class="collapsed question">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq6" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Nibh tellus molestie nunc non blandit massa enim nec.
+              </p>
+            </div>
+          </li> {% endcomment %}
+
+        </ul>
+
+      </div>
+    </section><!-- End F.A.Q Section -->
+
+
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-out">
+          <h2>Contact</h2>
+          <p style="color: #504037;">Contact Us</p>
+        </div>
+
+        <div class="row mt-5">
+
+          <div class="col-lg-4" data-aos="fade-right">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>Sector-H-101 Govindpura, Bhopal(M.P.)</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>vinayak.plywood@yahoo.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Call:</h4>
+                <p>+91 8140654321</p>
+              </div>
+
+            </div>
+
+          </div>
+
+
+
+          <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left">
+
+            <form action="" method="post"  >
+
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <!-- {% comment %} <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required> {% endcomment %} -->
+                  {{ forms.name }}
+
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <!-- {% comment %} <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required> {% endcomment %} -->
+                  {{ forms.email }}
+
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <!-- {% comment %} <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required> {% endcomment %} -->
+                {{ forms.subject}}
+
+              </div>
+              <div class="form-group mt-3">
+                <!-- {% comment %} <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea> {% endcomment %} -->
+                 {{ forms.message }}
+
+              </div>
+              {% csrf_token %}
+              <br>
+                <div  class=" text-center"><button class="submit_button" type="submit">Send Message</button></div>
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+
+  <footer class="footer-distributed">
+
+    <div class="footer-left">
+
+        <img src="{% static "assets/img/vp_logo11.png"  %}" width=100px height=100px>
+
+      <h3>Vinayak<span>Plywood</span></h3>
+
+      <p class="footer-links">
+        <a href="#hero">Home</a>
+        |
+        <a href="#services">Services</a>
+        |
+        <a href="#gallery">Gallery</a>
+        |
+        <a href="#faq">F.A.Q</a>
+      </p>
+
+      <p class="footer-company-name"> Vinayak Plywood © 2021 All Right Reserved</p>
+    </div>
+
+    <div class="footer-center">
+      <div>
+        <i class="fa fa-map-marker"></i>
+          <p><span>Sector - H - 101</span>
+          Govindpura, Bhopal (M.P.)</p>
+      </div>
+
+      <div>
+        <i class="fa fa-phone"></i>
+        <p>+91 8140654321</p>
+      </div>
+      <div>
+        <i class="fa fa-envelope"></i>
+        <p><a href="vinayak.plywood@yahoo.com">vinayak.plywood@yahoo.com</a></p>
+      </div>
+    </div>
+    <div class="footer-right">
+      <p class="footer-company-about">
+        <span>About the company</span>
+        We offer best quality Plywoods at a very resonable price with utmost Satisfaction to our End Users.</p>
+      <div class="footer-icons">
+        <a href="#"><i class="fa fa-facebook hh"></i></a>
+        <a href="#"><i class="fa fa-twitter hh"></i></a>
+        <a href="#"><i class="fa fa-instagram hh"></i></a>
+        {% comment %} <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-youtube"></i></a> {% endcomment %}
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+
+
+  <div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3665.2530397674514!2d77.4387261149724!3d23.270253584828218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDE2JzEyLjkiTiA3N8KwMjYnMjcuMyJF!5e0!3m2!1sen!2sin!4v1619443714938!5m2!1sen!2sin" style="width: 100%; height: 270px;"  style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+   </div>
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src={% static "assets/vendor/aos/aos.js" %} ></script>
+  <script src={% static "assets/vendor/bootstrap/js/bootstrap.bundle.min.js" %} ></script>
+  <script src={% static "assets/vendor/glightbox/js/glightbox.min.js" %} ></script>
+  <script src={% static "assets/vendor/isotope-layout/isotope.pkgd.min.js" %} ></script>
+  <script src={% static "assets/vendor/php-email-form/validate.js" %} ></script>
+  <script src={% static "assets/vendor/swiper/swiper-bundle.min.js" %} ></script>
+
+  <!-- Template Main JS File -->
+  <script src={% static "assets/js/main.js" %} ></script>
+  <script src={% static "assets/js/jsproduct.js" %} ></script>
+  <script src={% static "assets/js/jscorosel.js" %} ></script>
+
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+   <script type="text/javascript">
+    {% if messages and i %}
+     {% for message in messages %}
+      // swal("{{message}}");
+      swal("{{message}}", "", "{{message.tags}}");
+     {% endfor %}
+    {% endif %}
+   </script>
+  <!-- Template Main JS File -->
+  <script src={% static "assets/js/main.js" %}></script>
+</body>
+
+</html>
